@@ -7,8 +7,8 @@ const __dirname = path.dirname(__filename);
 export default {
   entry: "./src/main.js",
   output: {
-    // path: path.resolve(__dirname, "dist"),
-    path: path.resolve("public", "dist"),
+    path: path.resolve(__dirname, "dist"),
+    // path: path.resolve("public", "dist"),
     filename: "bundle.js",
   },
 };
