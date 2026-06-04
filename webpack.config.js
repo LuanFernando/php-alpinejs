@@ -1,0 +1,14 @@
+import path from "node:path";
+import { fileURLToPath } from "node:url";
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
+
+export default {
+  entry: "./src/main.js",
+  output: {
+    // path: path.resolve(__dirname, "dist"),
+    path: path.resolve("public", "dist"),
+    filename: "bundle.js",
+  },
+};

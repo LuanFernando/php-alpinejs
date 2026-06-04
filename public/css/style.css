@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-shadow: none;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+  width: 80vw;
+  background-color: cadetblue;
+  padding: 1rem;
+}
+
+button {
+  padding: 1rem;
+  border: none;
+  color: white;
+  background: black;
+  width: 100%;
+}
+
+.counter {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+
+.f-32 {
+  font-size: 32px;
+}
+
+ul {
+  padding: 1rem;
+}
+
+input {
+  padding: 1rem;
+}
